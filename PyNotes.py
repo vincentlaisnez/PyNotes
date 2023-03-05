@@ -25,7 +25,7 @@ class MainWindow(QWidget):
         self.te_contenu = QTextEdit()
 
     def modify_widgets(self):
-        css_file = "./ressources/style.css"
+        css_file = "ressources/style.css"
         with open(css_file, "r") as f:
             self.setStyleSheet(f.read())
 
